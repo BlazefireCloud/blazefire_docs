@@ -1,0 +1,1 @@
+import{_ as o,c as e,o as a,a as t}from"./app.fe993f79.js";const f=JSON.parse('{"title":"Authorization","description":"","frontmatter":{},"headers":[],"relativePath":"api/authorization.md"}'),i={name:"api/authorization.md"},r=t("",4),n=[r];function c(d,s,_,h,p,u){return a(),e("div",null,n)}const m=o(i,[["render",c]]);export{f as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.fe993f79.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"api/ambulance/introduction.md"}'),n={name:"api/ambulance/introduction.md"};function o(r,c,i,s,p,d){return a(),e("div")}const u=t(n,[["render",o]]);export{m as __pageData,u as default};
