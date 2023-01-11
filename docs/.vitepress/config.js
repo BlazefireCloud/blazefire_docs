@@ -1,14 +1,23 @@
 export default {
     head: [
+        ['meta', { name: 'theme-color', content: "#00f6ff" }],
         ['link', { rel: 'icon', 'type': 'image/x-icon', 'href': 'https://blazefire.cloud/assets/favicon/favicon.ico' }]
     ],
     title: 'Blazefire',
     description: 'Blazefire is a powerful new mdt',
-    logo: 'https://blazefire.cloud/assets/images/blazefire_white.png',
     siteTitle: false,
     base: '/',
     lastUpdated: true,
     themeConfig: {
+        nav: [
+            {
+                text: 'Website', 'link': 'https://blazefire.cloud'
+            }
+        ],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/blazefireio' },
+            { icon: 'discord', link: 'https://discord.gg/R39SVKjz' },
+        ],
         sidebar: [
             {
                 text: 'Introduction',
