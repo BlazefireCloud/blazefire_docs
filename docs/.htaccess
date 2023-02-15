@@ -1,4 +1,6 @@
 <IfModule mod_rewrite.c>
-  RewriteEngine on
-  RedirectMatch ^/$ /en/
+    RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^docs.blazefire\.cloud$
+    RewriteRule (.*) http://docs.blazefire.cloud/$1 [R=301,L]
+    RewriteRule ^$ en [L]
 </IfModule>
