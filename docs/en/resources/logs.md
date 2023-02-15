@@ -1,3 +1,3 @@
 # Logs
 
-[Polizei API](./police/log.md)
+[Polizei API](./police/logs.md)
