@@ -5,7 +5,7 @@ Here we explain step by step how you can make requests to our API interface and 
 ## API Token
 Our API uses so-called 'bearer' tokens. In the settings of your system, you can create one or more API keys for your account and assign them different permissions. If you pass on the keys to a third party, we recommend that you adjust the permissions of the API key accordingly to ensure security.
 
-## API Anfragen authentifizieren
+## Authenticate api requests
 To authenticate your requests, you must include the <b>Bearer</b> token in the header of each request. If you do not provide this key, or if it is invalid, you will receive a 401 error.
 
 How you send a header with a request varies depending on the programming/scripting language. It is best to search in a search engine of your choice how to include these headers.
