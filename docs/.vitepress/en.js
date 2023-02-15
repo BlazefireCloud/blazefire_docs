@@ -1,5 +1,5 @@
 const ogUrl = 'http://localhost/de';
-const ogDescription = 'German language for docs';
+const ogDescription = 'English documentation for the Blazefire virtual job management.';
 
 export const enConfig = {
     markdown: {
