@@ -1,17 +1,21 @@
+import { deConfig } from "./de"
+import { enConfig } from "./en"
+
 export default {
     head: [
         ['meta', { name: 'theme-color', content: "#00f6ff" }],
         ['link', { rel: 'icon', 'type': 'image/x-icon', 'href': 'https://blazefire.cloud/assets/favicon/favicon.ico' }]
     ],
-    title: 'Blazefire',
+    title: 'Blazefire Documentation',
     description: 'Blazefire is a powerful new mdt',
     siteTitle: false,
     base: '/',
     lastUpdated: true,
     themeConfig: {
+        i18nRouting: true,
         nav: [
             {
-                text: 'Website', 'link': 'https://blazefire.cloud'
+                text: 'Website', link: 'https://blazefire.cloud'
             }
         ],
         socialLinks: [
@@ -33,6 +37,7 @@ export default {
                 items: [
                     { text: 'Domain / Subdomain', link: '/general/domain' },
                     { text: 'Feature Request', link: '/general/feature-request' },
+                    { text: 'Database', link: '/general/database' },
                 ]
             },
             {
@@ -74,4 +79,16 @@ export default {
             copyright: 'Copyright © 2022 - present Blazefire'
         },
     },
+    locales: {
+        de: {
+            label: 'Deutsch',
+            lang: 'de',
+            ...deConfig
+        },
+        en: { 
+            label: 'English', 
+            lang: 'en',
+            ...enConfig
+        },
+    }
 }

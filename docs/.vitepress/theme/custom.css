@@ -1,4 +1,9 @@
 :root {
-    --vp-c-brand: #00f6ff;
-    --vp-c-brand-light: #00f6ff;
-  }
+  --vp-c-brand: #00f6ff;
+  --vp-c-brand-light: #00f6ff;
+}
+
+.dimWhite {
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: normal;
+}

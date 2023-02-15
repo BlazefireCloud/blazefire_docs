@@ -11,6 +11,7 @@
   "author": "oaky",
   "license": "ISC",
   "dependencies": {
+    "markdown-it-task-checkbox": "^1.0.6",
     "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.45"
   }
