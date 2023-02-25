@@ -12,7 +12,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: 'https://docs.blazefire.cloud/'
     steps:
       - uses: actions/checkout@v3
         with:
@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-      - run: yarn install --frozen-lockfile
+      - run: npm install
       - name: Build
-        run: yarn docs:build
+        run: npm run docs:build
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
