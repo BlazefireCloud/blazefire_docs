@@ -1,5 +1,5 @@
-const ogUrl = 'http://localhost/de';
-const ogDescription = 'English documentation for the Blazefire virtual job management.';
+const ogUrl = 'http://docs.blazefire.cloud/en';
+const ogDescription = 'You\'ve come to the right place if you are looking for a management tool of various jobs for your GTA V roleplay server.';
 
 export const enConfig = {
     markdown: {
@@ -10,7 +10,11 @@ export const enConfig = {
     description: ogDescription,
     head: [
         ['meta', { property: 'og:url', content: ogUrl }],
-        ['meta', { property: 'og:description', content: ogDescription }]
+        ['meta', { property: 'og:description', content: ogDescription }],
+        ['meta', { property: 'og:image', content: 'https://blazefire.cloud/assets/images/og_image.webp' }],
+        ['meta', { property: 'og:title', content: 'Blazefire Dokumentation | GTA V Virtual Job Applications' }],
+        ['meta', { property: 'og:type', content: 'Website' }],
+        ['meta', { property: 'og:site_name', content: 'Blazefire Dokumentation | GTA V Virtual Job Applications' }],
     ],
     themeConfig: {
         nav: [
