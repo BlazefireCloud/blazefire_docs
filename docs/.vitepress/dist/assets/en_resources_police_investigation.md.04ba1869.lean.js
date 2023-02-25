@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.7c995242.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"en/resources/police/investigation.md","lastUpdated":1676483725000}'),o={name:"en/resources/police/investigation.md"};function s(n,r,i,c,p,d){return a(),t("div")}const m=e(o,[["render",s]]);export{l as __pageData,m as default};

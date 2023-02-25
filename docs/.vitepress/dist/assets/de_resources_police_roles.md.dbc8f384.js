@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.7c995242.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"de/resources/police/roles.md","lastUpdated":1676483725000}'),o={name:"de/resources/police/roles.md"};function s(a,c,n,p,d,l){return r(),t("div")}const m=e(o,[["render",s]]);export{_ as __pageData,m as default};

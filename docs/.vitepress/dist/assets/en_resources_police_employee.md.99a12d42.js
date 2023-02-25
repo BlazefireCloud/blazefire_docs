@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.7c995242.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"en/resources/police/employee.md","lastUpdated":1676483725000}'),r={name:"en/resources/police/employee.md"};function a(s,c,n,p,l,d){return o(),t("div")}const _=e(r,[["render",a]]);export{m as __pageData,_ as default};

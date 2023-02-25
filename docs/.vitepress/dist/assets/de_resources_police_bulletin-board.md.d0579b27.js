@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.7c995242.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"de/resources/police/bulletin-board.md","lastUpdated":1676483725000}'),a={name:"de/resources/police/bulletin-board.md"};function o(s,c,n,d,l,i){return r(),t("div")}const u=e(a,[["render",o]]);export{_ as __pageData,u as default};
