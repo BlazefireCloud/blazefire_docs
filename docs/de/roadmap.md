@@ -20,9 +20,9 @@
 ## Rettungsdienst v0.1
 
 ### Homepage
-<cb /> Startseite<br>
-<cb /> Karriere<br>
-<cb /> Kontakt<br>
+<cb checked="true" /> Startseite<br>
+<cb checked="true" /> Karriere<br>
+<cb checked="true" /> Kontakt<br>
 
 ### Patienten
 <cb /> Patienten erstellen<br>
@@ -58,4 +58,4 @@
 <cb /> Anlegen neuer Benachrichtigungen
 
 ### Features
-<cb /> Deaktivieren / Aktivieren von Features in der Liste.
+<cb checked="true" /> Deaktivieren / Aktivieren von Features in der Liste.

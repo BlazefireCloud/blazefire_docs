@@ -19,9 +19,9 @@
 ## Ambulance v0.1
 
 ### Landing page
-<cb /> Default page<br>
-<cb /> Career page<br>
-<cb /> Contact page<br>
+<cb checked="true" /> Default page<br>
+<cb checked="true" /> Career page<br>
+<cb checked="true" /> Contact page<br>
 
 ### Patients
 <cb /> Create patient<br>
@@ -57,4 +57,4 @@
 <cb /> Create new notifications
 
 ### Features
-<cb /> Disable / enable features in the list.
+<cb checked="true" /> Disable / enable features in the list.
