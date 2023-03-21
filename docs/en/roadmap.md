@@ -8,11 +8,6 @@
 
 ## Police v1.0
 
-### Domain
-
-<cb /> Automatically encrypt domain with an SSL certificate<br>
-<cb /> Automatically renew certificate
-
 ### API
 <cb /> Image upload for citizens and investigations
 
@@ -24,12 +19,12 @@
 <cb checked="true" /> Contact page<br>
 
 ### Patients
-<cb /> Create patient<br>
-<cb /> Update patient<br>
-<cb /> Delete patient<br>
+<cb checked="true" /> Create patient<br>
+<cb checked="true" /> Update patient<br>
+<cb checked="true" /> Delete patient<br>
 <cb /> Store whether certain courses have been completed<br />
 <cb /> Save certificates in PDF format (show when course expires) (downloadable via link?)<br>
-<cb /> List of medicines (incompatibility)
+<cb checked="true" /> List of medicines (incompatibility)
 
 
 ### Employees
@@ -58,3 +53,16 @@
 
 ### Features
 <cb checked="true" /> Disable / enable features in the list.
+
+### Payouts
+<cb /> Employees can request payouts. <br/>
+<cb /> Master Account can define a maximum amount of payouts in a given interval. <br>
+<cb /> If feature is activated a global hourly wage can be defined. <br>
+<cb /> If feature is activated a individually houly wage can be set for each employee.
+
+### Business Account
+<cb /> If you activate the feature you can submit informations regarding your business account and get to show the current balance of the business account. <br>
+<cb /> The master account can determine if a payout request should be declinded if there isn't enough money on the business account.
+
+### Webhooks
+<cb /> Send webhook if a employee requests a payout.
